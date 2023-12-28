@@ -20,17 +20,32 @@
         // console.log(x);
         // for (let i = 0; i < x.length; i++){ 
         //     x[i].style.color = 'blue';
-        // }
+//         // }
 
-//create a new element 
+// //create a new element 
 
-const ul = document.querySelector('ul');
-const li = document.createElement('li');
-ul.append(li);
-li.innerText=" The shumilator";
+// const ul = document.querySelector('ul');
+// const li = document.createElement('li');
+// ul.append(li);
+// li.innerText=" The shumilator";
 
-//modifying attributes classes and 
-// li.setAttribute('id', 'main_heading');
+// //modifying attributes classes and 
+// // li.setAttribute('id', 'main_heading');
 
-//add a class 
-    li.classList.add('listitems');
+// //add a class 
+//     li.classList.add('listitems');
+// //remove from list 
+// li.remove();
+
+// TRAVERSING THE DOM 
+
+// let x =document.querySelector('ul');
+// // console.log(x.childNodes);
+// x.childNodes[1].style.backgroundColor='green';
+
+
+// x.firstElementChild.style.backgroundColor='blue';
+// x.lastElementChild.style.color= 'red';
+
+// x.nextSibling.style.backgroundColor='green';
+// x.previousSibling.style.backgroundColor='green';
