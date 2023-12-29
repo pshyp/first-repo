@@ -57,3 +57,35 @@ h2{
     height:45px;
     font-weight: bold;
 }
+.hidden {
+    display: none;
+}
+.material-symbols-outlined{
+    height: 50px;
+    width: 200px;
+    color:white;
+    background-color: #0ba2e8 ;
+    border-radius: 10px;
+    font-family: 'Arimo', sans-serif;
+        
+    
+}
+.first_circle{
+    border:solid 3px;
+    display:inline-block;
+    border-radius: 10px;
+        padding: 10%;
+        margin: 10%;
+}
+.click{
+    height:50px;
+    width:200px;
+    
+}
+.second_circle{
+border: solid 3px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10%;
+    margin: 10%;
+}

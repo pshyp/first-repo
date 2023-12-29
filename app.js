@@ -66,3 +66,15 @@ function changeBoxcolor(){
 
 }
 ChangeColor.addEventListener("mouseover", changeBoxcolor);
+
+
+const hiddenContent = document.querySelector('.hidden');
+const revealButton = document.querySelector('.material-symbols-outlined');
+
+function revealContent() {
+  hiddenContent.classList.toggle('hidden');
+}
+
+revealButton.addEventListener('click', revealContent);
+
+ revealcontent.addEventListener('click', revealcontent);
