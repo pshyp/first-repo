@@ -49,3 +49,20 @@
 
 // x.nextSibling.style.backgroundColor='green';
 // x.previousSibling.style.backgroundColor='green';
+
+// EVENT LISTENERS 
+ const buttonmain= document.querySelector('.enter');
+
+function altertbtn (){
+    alert("i love java");
+}
+
+buttonmain.addEventListener("click", altertbtn);
+
+const ChangeColor =document.querySelector('.event_1');
+
+function changeBoxcolor(){
+    ChangeColor.style.backgroundColor="red";
+
+}
+ChangeColor.addEventListener("mouseover", changeBoxcolor);
