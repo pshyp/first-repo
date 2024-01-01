@@ -74,18 +74,63 @@ h2{
     border:solid 3px;
     display:inline-block;
     border-radius: 10px;
-        padding: 10%;
-        margin: 10%;
+        padding: 5%;
+        margin: 5%;
 }
 .click{
     height:50px;
     width:200px;
+    border-radius: 10px;
+    color: grey;
+    background-color: black;
+    font-family: 'Arimo', sans-serif;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        font-size: x-large;
     
+   
+    
+}
+.click1 {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    color: grey;
+    /* padding-top: 10%; */
+    margin-top: 10%;
+    font-family: 'Arimo', sans-serif;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+
+
 }
 .second_circle{
 border: solid 3px;
     display: inline-block;
     border-radius: 10px;
-    padding: 10%;
-    margin: 10%;
+    padding: 5%;
+    margin: 5%;
+}
+/* .container{
+    display:grid;
+    height: 100vh;
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_circle,
+.second_circle {
+    border: solid 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
 }
