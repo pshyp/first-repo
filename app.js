@@ -122,3 +122,9 @@ document.querySelector('.lastlast').addEventListener('click', function(e){
         target.style.backgroundColor = 'lightgrey';
     }
 });
+
+const sports =document.querySelector(".lastlast");
+const newsport= document.createElement('li');
+newsport.innerText="Rugby";
+newsport.setAttribute('class', 'rugby');
+sports.appendChild(newsport);
