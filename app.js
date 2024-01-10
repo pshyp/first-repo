@@ -128,3 +128,19 @@ const newsport= document.createElement('li');
 newsport.innerText="Rugby";
 newsport.setAttribute('class', 'rugby');
 sports.appendChild(newsport);
+
+
+// ASYNC JAVASCRIPT
+
+//json requests 
+
+const request =XMLHttpRequest();
+request.addEventListener("readychange", function(){
+        if (request.requestState===4) {
+    console.log(request.responseText)
+        }
+    
+})
+//(TYPE OF REQUEST, AND WHERE TO GET THE DATA)
+request.open('GET', 'http://jsonplaceholder.typicode.com/todos/');
+request.send();
